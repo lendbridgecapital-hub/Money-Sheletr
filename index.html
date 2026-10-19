@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LendBridge Capital | Bridging Dreams & Finance | Premier Credit Advisory & Loan Syndication</title>
+  <meta name="description" content="LendBridge Capital is a premier Pune-headquartered Direct Selling Agent (DSA) and credit advisory firm, operating as a sister concern of Money Shelter Pvt. Ltd. (established in 2014). End-to-end loan syndication across retail, commercial, and real estate finance." />
+  <meta name="keywords" content="LendBridge Capital, Home Loans Pune, Builder Project Finance Maharashtra, CIBIL Low Score Home Loan, Loan Against Property, Business Loans, Money Shelter Pvt Ltd, DSA Pune Nashik Satara" />
+  <link rel="canonical" href="https://www.lendbridgecapital.in/" />
+  <link rel="icon" type="image/png" href="./assets/logo-emblem.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <!-- Top Announcement / Pedigree Strip -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span class="pedigree-badge"><i data-lucide="shield-check" class="icon-xs"></i> Sister Concern of <strong>Money Shelter Pvt. Ltd.</strong> (Est. 2014)</span>
+        <span class="divider">|</span>
+        <span class="top-locations"><i data-lucide="map-pin" class="icon-xs"></i> Pune &bull; Nashik &bull; Satara <em class="soon-tag">Coming Soon: Mumbai &amp; Kolhapur</em></span>
+      </div>
+      <div class="top-bar-right">
+        <a href="https://www.lendbridgecapital.in" class="domain-link"><i data-lucide="globe" class="icon-xs"></i> www.lendbridgecapital.in</a>
+        <a href="https://money-shelter.onrender.com/Lendbridge-Capital.apk" download="Lendbridge-Capital.apk" target="_blank" rel="noopener noreferrer" class="apk-download-btn">
+          <i data-lucide="smartphone" class="icon-xs"></i>
+          <span>Download App (APK)</span>
+          <i data-lucide="download" class="icon-xs apk-dl-icon"></i>
+        </a>
+        <span class="divider">|</span>
+        <a href="#contact" class="top-contact-link"><i data-lucide="phone-call" class="icon-xs"></i> Priority Desk</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Navigation Header -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo" aria-label="LendBridge Capital Home">
+        <img src="./assets/lendbridge-brand-logo.png" alt="LendBridge Capital - Bridging Dreams &amp; Finance" class="official-nav-logo" />
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#overview" class="nav-link">Overview</a>
+        
+        <!-- Products Dropdown -->
+        <div class="nav-item-dropdown">
+          <a href="#portfolio" class="nav-link nav-link-dropdown">
+            <span>Financing Solutions</span>
+            <i data-lucide="chevron-down" class="dropdown-chevron"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#portfolio" class="dropdown-item" onclick="selectLoanInModal('Home Loans')">
+              <div class="di-icon"><i data-lucide="home"></i></div>
+              <div class="di-text">
+                <strong>Home Loans</strong>
+                <span>Purchase, construction &amp; balance transfer</span>
+              </div>
+            </a>
+            <a href="#cibil-specialist" class="dropdown-item dropdown-item-featured">
+              <div class="di-icon di-icon-gold"><i data-lucide="sparkles"></i></div>
+              <div class="di-text">
+                <div class="di-badge-row">
+                  <strong>Credit-Challenged Loans</strong>
+                  <span class="di-badge">Specialist</span>
+                </div>
+                <span>Low / impaired CIBIL non-standard underwriting</span>
+              </div>
+            </a>
+            <a href="#portfolio" class="dropdown-item" onclick="selectLoanInModal('Project & Builder Finance')">
+              <div class="di-icon"><i data-lucide="building-2"></i></div>
+              <div class="di-text">
+                <strong>Project &amp; Builder Finance</strong>
+                <span>50+ projects executed across Pune</span>
+              </div>
+            </a>
+            <a href="#portfolio" class="dropdown-item" onclick="selectLoanInModal('Loan Against Property (LAP)')">
+              <div class="di-icon"><i data-lucide="key-round"></i></div>
+              <div class="di-text">
+                <strong>Loan Against Property (LAP)</strong>
+                <span>High-ticket residential &amp; commercial liquidity</span>
+              </div>
+            </a>
+            <a href="#portfolio" class="dropdown-item" onclick="selectLoanInModal('Business Loans')">
+              <div class="di-icon"><i data-lucide="briefcase"></i></div>
+              <div class="di-text">
+                <strong>Business Loans</strong>
+                <span>MSME working capital &amp; machinery finance</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <a href="#strengths" class="nav-link">Strengths</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#contact" class="nav-link">Contact</a>
+
+        <div class="mobile-menu-actions">
+          <button class="btn btn-gold btn-block btn-sm" onclick="openEligibilityModal()">
+            <i data-lucide="calculator" class="icon-xs"></i>
+            <span>Check Loan Eligibility</span>
+          </button>
+          <a href="https://money-shelter.onrender.com/partner/onboard?branchId=br_satara_01" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold btn-block btn-sm">
+            <i data-lucide="briefcase" class="icon-xs"></i>
+            <span>Become a Partner</span>
+          </a>
+          <a href="https://money-shelter.onrender.com/lendbridge/login?branchId=br_satara_01" target="_blank" rel="noopener noreferrer" class="btn btn-outline-navy btn-block btn-sm">
+            <i data-lucide="user-check" class="icon-xs"></i>
+            <span>Partner Login (Satara Desk)</span>
+          </a>
+          <a href="https://money-shelter.onrender.com/login/br_satara_01" target="_blank" rel="noopener noreferrer" class="btn btn-outline-navy btn-block btn-sm">
+            <i data-lucide="shield" class="icon-xs"></i>
+            <span>Employee Login (Satara Branch)</span>
+          </a>
+          <a href="https://money-shelter.onrender.com/Lendbridge-Capital.apk" download="Lendbridge-Capital.apk" target="_blank" rel="noopener noreferrer" class="apk-download-btn apk-mobile-block">
+            <i data-lucide="smartphone" class="icon-xs"></i>
+            <span>Download App (APK)</span>
+            <i data-lucide="download" class="icon-xs apk-dl-icon"></i>
+          </a>
+        </div>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="nav-btn-link" onclick="openEligibilityModal()">
+          <i data-lucide="calculator" class="icon-sm"></i>
+          <span>Eligibility</span>
+        </button>
+        <a href="https://money-shelter.onrender.com/partner/onboard?branchId=br_satara_01" target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-sm" title="Partner Onboarding (Satara Desk)">
+          <span>Become a Partner</span>
+          <i data-lucide="arrow-up-right" class="icon-xs"></i>
+        </a>
+        <a href="https://money-shelter.onrender.com/lendbridge/login?branchId=br_satara_01" target="_blank" rel="noopener noreferrer" class="btn btn-outline-navy btn-sm btn-nav-auth" title="Dedicated Lendbridge Partner Login (Satara Desk)">
+          <i data-lucide="user-check" class="icon-xs"></i>
+          <span>Partner Login</span>
+        </a>
+        <a href="https://money-shelter.onrender.com/login/br_satara_01" target="_blank" rel="noopener noreferrer" class="btn btn-outline-navy btn-sm btn-nav-auth" title="Satara Branch Employee Desk Login">
+          <i data-lucide="shield" class="icon-xs"></i>
+          <span>Employee Login</span>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 1. HERO SECTION (HOMEPAGE) -->
+  <section class="hero" id="home">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+
+    <div class="container hero-grid">
+      <!-- Left Column: Copy & CTAs -->
+      <div class="hero-content reveal-up">
+        <div class="eyebrow-pill">
+          <span class="pulse-dot"></span>
+          <span>PREMIER CREDIT ADVISORY &amp; LOAN SYNDICATION</span>
+        </div>
+
+        <h1 class="hero-title">
+          Bridging Dreams <span class="text-gold-gradient">&amp; Finance.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Trusted loan syndication across Maharashtra. From customized home loans to multi-crore builder project financing, we connect you with the right bank at the right terms.
+        </p>
+
+        <div class="hero-cta-group">
+          <button class="btn btn-gold btn-lg" onclick="openEligibilityModal()">
+            <span>Check Your Loan Eligibility</span>
+            <i data-lucide="check-circle-2" class="icon-md"></i>
+          </button>
+          <a href="#contact" class="btn btn-glass btn-lg">
+            <i data-lucide="phone-forwarded" class="icon-md"></i>
+            <span>Talk to a Credit Specialist</span>
+          </a>
+        </div>
+
+        <!-- Quick Value Highlights -->
+        <div class="hero-mini-highlights">
+          <div class="mini-item">
+            <div class="mini-icon"><i data-lucide="award"></i></div>
+            <div>
+              <strong>Since 2014 Pedigree</strong>
+              <span>Sister Concern of Money Shelter Pvt. Ltd.</span>
+            </div>
+          </div>
+          <div class="mini-item">
+            <div class="mini-icon"><i data-lucide="building-2"></i></div>
+            <div>
+              <strong>50+ Builder Projects</strong>
+              <span>Structured across Pune &amp; Maharashtra</span>
+            </div>
+          </div>
+          <div class="mini-item">
+            <div class="mini-icon"><i data-lucide="file-check-2"></i></div>
+            <div>
+              <strong>CIBIL Resolution</strong>
+              <span>Specialized Non-Standard Underwriting</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Brand Crest Showcase Card -->
+      <div class="hero-visual reveal-up" style="transition-delay: 120ms;">
+        <div class="hero-card-stack">
+          <!-- Floating Brand Showcase Card -->
+          <div class="brand-crest-card">
+            <div class="crest-ribbon">OFFICIAL CORPORATE MANDATE</div>
+            <div class="crest-logo-frame">
+              <img src="./assets/logo-clean.png" alt="LendBridge Capital Official Logo" class="hero-logo-img" />
+            </div>
+            <div class="crest-footer">
+              <div class="crest-stat">
+                <span class="crest-stat-val">10+ Yrs</span>
+                <span class="crest-stat-lbl">Group Legacy</span>
+              </div>
+              <div class="crest-divider"></div>
+              <div class="crest-stat">
+                <span class="crest-stat-val">50+</span>
+                <span class="crest-stat-lbl">Projects Funded</span>
+              </div>
+              <div class="crest-divider"></div>
+              <div class="crest-stat">
+                <span class="crest-stat-val">Pan-India</span>
+                <span class="crest-stat-lbl">PSU, Pvt &amp; NBFCs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Wide Horizontal Rectangular Instant Structuring Preview & EMI Calculator -->
+    <div class="container hero-calc-container reveal-up" style="transition-delay: 180ms;">
+      <div class="quick-calc-card quick-calc-rectangle">
+        <div class="qc-header">
+          <div>
+            <span class="qc-tag">INSTANT STRUCTURING PREVIEW</span>
+            <h4>Interactive EMI &amp; Syndication Calculator</h4>
+          </div>
+          <span class="qc-badge">Live Market Rates</span>
+        </div>
+
+        <div class="qc-body qc-body-rect">
+          <div class="qc-row qc-row-principal">
+            <div class="qc-label-group">
+              <label for="loanAmountRange">Loan Requirement</label>
+              <span class="qc-value" id="loanAmountDisplay">₹ 75,00,000</span>
+            </div>
+            <input type="range" id="loanAmountRange" min="500000" max="250000000" step="500000" value="7500000" class="gold-slider" />
+            <div class="qc-scale">
+              <span>₹5 Lakh (Retail)</span>
+              <span>₹25 Cr+ (Project Finance)</span>
+            </div>
+          </div>
+
+          <div class="qc-inputs-split">
+            <div class="qc-col">
+              <div class="qc-label-group">
+                <label for="interestRateRange">Indicative ROI (% p.a.)</label>
+                <span class="qc-value" id="interestRateDisplay">8.60%</span>
+              </div>
+              <input type="range" id="interestRateRange" min="7.5" max="16.0" step="0.1" value="8.6" class="gold-slider" />
+            </div>
+            <div class="qc-col">
+              <div class="qc-label-group">
+                <label for="tenureRange">Tenure (Years)</label>
+                <span class="qc-value" id="tenureDisplay">15 Yrs</span>
+              </div>
+              <input type="range" id="tenureRange" min="1" max="30" step="1" value="15" class="gold-slider" />
+            </div>
+          </div>
+
+          <div class="qc-result-bar">
+            <div>
+              <span class="qc-res-label">Estimated Monthly Outflow</span>
+              <div class="qc-res-emi" id="emiResultDisplay">₹ 74,295 <span>/ month</span></div>
+            </div>
+            <button class="btn btn-gold btn-sm" onclick="openEligibilityModalWithData()">
+              Get Custom Quote <i data-lucide="arrow-right" class="icon-xs"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. TRUST BAR (METRICS & NETWORK) -->
+  <section class="trust-bar-section" aria-label="Trust Metrics and Network">
+    <div class="container">
+      <div class="trust-grid">
+        <!-- Trust Metric 1 -->
+        <div class="trust-card reveal-up">
+          <div class="trust-icon-wrap">
+            <i data-lucide="landmark"></i>
+          </div>
+          <div class="trust-content">
+            <div class="trust-eyebrow">ESTABLISHED ROOTS</div>
+            <h3 class="trust-title">Sister Concern of Money Shelter Pvt. Ltd.</h3>
+            <p class="trust-desc">Backed by institutional operational excellence and financial pedigree <strong>Since 2014</strong>.</p>
+          </div>
+        </div>
+
+        <!-- Trust Metric 2 -->
+        <div class="trust-card reveal-up" style="transition-delay: 80ms;">
+          <div class="trust-icon-wrap">
+            <i data-lucide="building"></i>
+          </div>
+          <div class="trust-content">
+            <div class="trust-eyebrow">50+ REAL ESTATE PROJECTS FUNDED</div>
+            <h3 class="trust-title">Pune’s Trusted Developer Finance Partner</h3>
+            <p class="trust-desc">End-to-end project syndication, construction finance &amp; inventory funding across Pune.</p>
+          </div>
+        </div>
+
+        <!-- Trust Metric 3 -->
+        <div class="trust-card reveal-up" style="transition-delay: 160ms;">
+          <div class="trust-icon-wrap">
+            <i data-lucide="network"></i>
+          </div>
+          <div class="trust-content">
+            <div class="trust-eyebrow">COMPREHENSIVE BANKING NETWORK</div>
+            <h3 class="trust-title">Impaneled with Leading National Banks &amp; NBFCs</h3>
+            <p class="trust-desc">Direct tie-ups with PSU banks, private sector leaders, and high-growth NBFCs.</p>
+          </div>
+        </div>
+
+        <!-- Trust Metric 4 -->
+        <div class="trust-card reveal-up" style="transition-delay: 240ms;">
+          <div class="trust-icon-wrap">
+            <i data-lucide="map-pinned"></i>
+          </div>
+          <div class="trust-content">
+            <div class="trust-eyebrow">EXPANDING FOOTPRINT</div>
+            <h3 class="trust-title">Present in Pune | Nashik | Satara</h3>
+            <p class="trust-desc"><span class="coming-soon-pill">Coming Soon: Mumbai &amp; Kolhapur</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXECUTIVE OVERVIEW SECTION -->
+  <section class="section overview-section" id="overview">
+    <div class="container">
+      <div class="overview-grid">
+        <div class="overview-left reveal-up">
+          <div class="section-tag">EXECUTIVE OVERVIEW</div>
+          <h2 class="section-title">Bridging Aspirational Borrowers &amp; Formal Credit Institutions</h2>
+          <div class="gold-accent-line"></div>
+          <p class="lead-paragraph">
+            <strong>LendBridge Capital</strong> is a premier Pune-headquartered Direct Selling Agent (DSA) and credit advisory firm, operating as a sister concern of <strong>Money Shelter Pvt. Ltd.</strong> (established in 2014).
+          </p>
+          <p class="body-paragraph">
+            We bridge the gap between aspirational borrowers and formal credit institutions, offering end-to-end loan syndication across retail, commercial, and real estate finance.
+          </p>
+          <p class="body-paragraph">
+            Through direct impanelment with India’s leading public sector banks, private banks, and top NBFCs, LendBridge Capital structures competitive financing solutions tailored to complex financial profiles.
+          </p>
+
+          <div class="overview-pillars">
+            <div class="pillar-chip">
+              <i data-lucide="home" class="icon-sm text-gold"></i>
+              <span>Retail Lending</span>
+            </div>
+            <div class="pillar-chip">
+              <i data-lucide="briefcase" class="icon-sm text-gold"></i>
+              <span>Commercial &amp; MSME Credit</span>
+            </div>
+            <div class="pillar-chip">
+              <i data-lucide="hard-hat" class="icon-sm text-gold"></i>
+              <span>Real Estate &amp; Builder Syndication</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-right reveal-up" style="transition-delay: 120ms;">
+          <div class="architecture-diagram-card">
+            <div class="arch-header">
+              <span class="arch-subtitle">THE LENDBRIDGE SYNDICATION MODEL</span>
+              <h3>End-to-End Credit Engineering</h3>
+            </div>
+
+            <div class="arch-flow">
+              <div class="arch-node">
+                <div class="arch-step-num">01</div>
+                <div class="arch-node-body">
+                  <h4>Aspirational Borrowers &amp; Developers</h4>
+                  <p>Homebuyers, MSMEs, Corporates, and Real Estate Builders with standard or complex credit profiles.</p>
+                </div>
+              </div>
+
+              <div class="arch-connector">
+                <div class="arch-line"></div>
+                <div class="arch-bridge-badge">
+                  <i data-lucide="git-merge" class="icon-xs"></i> LendBridge Underwriting &amp; Structuring
+                </div>
+              </div>
+
+              <div class="arch-node arch-node-highlight">
+                <div class="arch-step-num">02</div>
+                <div class="arch-node-body">
+                  <h4>LendBridge Advisory &amp; File Design</h4>
+                  <p>Deep balance sheet analysis, CIBIL diagnostics, collateral structuring, and strategic lender mapping.</p>
+                </div>
+              </div>
+
+              <div class="arch-connector">
+                <div class="arch-line"></div>
+                <div class="arch-bridge-badge">
+                  <i data-lucide="zap" class="icon-xs"></i> Direct Impanelment Channel
+                </div>
+              </div>
+
+              <div class="arch-node">
+                <div class="arch-step-num">03</div>
+                <div class="arch-node-body">
+                  <h4>Formal Credit Institutions</h4>
+                  <p>Public Sector Banks (PSUs), Leading Private Banks, High-Growth NBFCs &amp; Cooperative Credit Lines.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORE STRENGTHS & TRACK RECORD -->
+  <section class="section strengths-section" id="strengths">
+    <div class="container">
+      <div class="section-header text-center reveal-up">
+        <div class="section-tag">CORE STRENGTHS &amp; TRACK RECORD</div>
+        <h2 class="section-title">Why Borrowers &amp; Developers Trust LendBridge</h2>
+        <p class="section-subtitle">
+          A decade of institutional lineage combined with surgical underwriting precision across Maharashtra.
+        </p>
+      </div>
+
+      <div class="strengths-bento">
+        <!-- Strength 1 -->
+        <div class="strength-card reveal-up">
+          <div class="strength-top">
+            <span class="strength-index">01</span>
+            <div class="strength-icon"><i data-lucide="history"></i></div>
+          </div>
+          <h3>Decade-Long Financial Pedigree</h3>
+          <p>Backed by <strong>Money Shelter Pvt. Ltd.’s</strong> operational excellence since 2014, delivering time-tested governance, transparent advisory, and deep banking relationships.</p>
+        </div>
+
+        <!-- Strength 2 -->
+        <div class="strength-card reveal-up" style="transition-delay: 80ms;">
+          <div class="strength-top">
+            <span class="strength-index">02</span>
+            <div class="strength-icon"><i data-lucide="handshake"></i></div>
+          </div>
+          <h3>Pan-Lender Network</h3>
+          <p>Strong, direct tie-ups with leading national banks and high-growth NBFCs for preferential turnaround times (TAT) and highly competitive interest rates.</p>
+        </div>
+
+        <!-- Strength 3 -->
+        <div class="strength-card strength-card-featured reveal-up" style="transition-delay: 160ms;">
+          <div class="strength-top">
+            <span class="strength-index">03</span>
+            <div class="strength-icon"><i data-lucide="building-2"></i></div>
+          </div>
+          <div class="featured-tag">REAL ESTATE SYNDICATION LEADER</div>
+          <h3>Project Finance Leadership</h3>
+          <p>Successfully structured project financing for over <strong>50+ residential and commercial real estate developers</strong> across Pune—covering land acquisition, construction finance, and inventory funding.</p>
+        </div>
+
+        <!-- Strength 4 -->
+        <div class="strength-card strength-card-wide reveal-up">
+          <div class="strength-top">
+            <span class="strength-index">04</span>
+            <div class="strength-icon"><i data-lucide="file-search-2"></i></div>
+          </div>
+          <h3>Specialized Underwriting Advisory</h3>
+          <p>Industry-recognized expertise in navigating low or impaired CIBIL scores, identifying alternative lending channels and collateral-backed programs where standard approvals fall through.</p>
+        </div>
+
+        <!-- Strength 5 -->
+        <div class="strength-card reveal-up" style="transition-delay: 80ms;">
+          <div class="strength-top">
+            <span class="strength-index">05</span>
+            <div class="strength-icon"><i data-lucide="compass"></i></div>
+          </div>
+          <h3>Rapid Regional Footprint</h3>
+          <p>Fully operational hubs in <strong>Pune, Nashik, and Satara</strong>, with strategic expansion actively underway into <strong>Mumbai and Kolhapur</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT PORTFOLIO SECTION -->
+  <section class="section portfolio-section" id="portfolio">
+    <div class="container">
+      <div class="section-header-Row reveal-up">
+        <div>
+          <div class="section-tag">PRODUCT PORTFOLIO</div>
+          <h2 class="section-title">Comprehensive Financing Solutions</h2>
+          <p class="section-subtitle">Tailored credit products across retail, corporate, and real estate verticals.</p>
+        </div>
+
+        <div class="portfolio-filters" role="tablist" aria-label="Filter Loan Products">
+          <button class="filter-btn active" data-filter="all">All Products (7)</button>
+          <button class="filter-btn" data-filter="retail">Retail &amp; Home</button>
+          <button class="filter-btn" data-filter="commercial">Commercial &amp; Builder</button>
+        </div>
+      </div>
+
+      <!-- Interactive Product Cards Grid -->
+      <div class="portfolio-grid" id="portfolioGrid">
+        <!-- 1. Home Loans -->
+        <article class="product-card reveal-up" data-category="retail">
+          <div class="product-card-top">
+            <div class="product-icon"><i data-lucide="home"></i></div>
+            <span class="product-badge badge-popular">Retail Flagship</span>
+          </div>
+          <h3 class="product-title">Home Loans</h3>
+          <p class="product-desc">
+            Purchase, construction, balance transfers, and specialized approvals for sub-optimal CIBIL profiles.
+          </p>
+          <ul class="product-features">
+            <li><i data-lucide="check" class="icon-xs"></i> New Purchase &amp; Self-Construction</li>
+            <li><i data-lucide="check" class="icon-xs"></i> High-Savings Balance Transfer + Top-Up</li>
+            <li><i data-lucide="check" class="icon-xs"></i> Sub-Optimal CIBIL Resolution Pathways</li>
+          </ul>
+          <div class="product-footer">
+            <button class="btn-text-gold" onclick="selectLoanInModal('Home Loans')">
+              Apply / Check Eligibility <i data-lucide="arrow-right" class="icon-xs"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- 2. Project & Builder Finance -->
+        <article class="product-card product-card-highlight reveal-up" data-category="commercial" style="transition-delay: 60ms;">
+          <div class="product-card-top">
+            <div class="product-icon"><i data-lucide="building-2"></i></div>
+            <span class="product-badge badge-gold">50+ Projects Executed</span>
+          </div>
+          <h3 class="product-title">Project &amp; Builder Finance</h3>
+          <p class="product-desc">
+            End-to-end syndication, construction finance, and inventory funding for developers (50+ projects executed).
+          </p>
+          <ul class="product-features">
+            <li><i data-lucide="check" class="icon-xs"></i> Residential &amp; Commercial Construction Finance</li>
+            <li><i data-lucide="check" class="icon-xs"></i> Unsold Inventory &amp; Lease Rental Discounting</li>
+            <li><i data-lucide="check" class="icon-xs"></i> Structured Tranche Disbursements</li>
+          </ul>
+          <div class="product-footer">
+            <button class="btn-text-gold" onclick="selectLoanInModal('Project & Builder Finance')">
+              Request Developer Desk <i data-lucide="arrow-right" class="icon-xs"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- 3. Loan Against Property (LAP) -->
+        <article class="product-card reveal-up" data-category="commercial retail" style="transition-delay: 120ms;">
+          <div class="product-card-top">
+            <div class="product-icon"><i data-lucide="key-round"></i></div>
+            <span class="product-badge">High-Ticket Liquidity</span>
+          </div>
+          <h3 class="product-title">Loan Against Property (LAP)</h3>
+          <p class="product-desc">
+            Long-tenure, high-ticket liquidity against residential, commercial, or industrial real estate.
+          </p>
+          <ul class="product-features">
+            <li><i data-lucide="check" class="icon-xs"></i> High LTV on Residential &amp; Commercial Assets</li>
+            <li><i data-lucide="check" class="icon-xs"></i> Industrial Property &amp; Warehouse Collaterals</li>
+            <li><i data-lucide="check" class="icon-xs"></i> Overdraft (OD) &amp; Term Loan Structures</li>
+          </ul>
+          <div class="product-footer">
+            <button class="btn-text-gold" onclick="selectLoanInModal('Loan Against Property (LAP)')">
+              Unlock Property Value <i data-lucide="arrow-right" class="icon-xs"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- 4. Business Loans -->
+        <article class="product-card reveal-up" data-category="commercial">
+          <div class="product-card-top">
+            <div class="product-icon"><i data-lucide="briefcase-business"></i></div>
+            <span class="product-badge">MSME &amp; Corporate</span>
+          </div>
+          <h3 class="product-title">Business Loans</h3>
+          <p class="product-desc">
+            Working capital, machinery finance, and term loans tailored for MSMEs and corporate growth.
+          </p>
+          <ul class="product-features">
+            <li><i data-lucide="check" class="icon-xs"></i> Cash Credit (CC), OD &amp; Working Capital</li>
+            <li><i data-lucide="check" class="icon-xs"></i> Plant, Equipment &amp; Machinery Finance</li>
+            <li><i data-lucide="check" class="icon-xs"></i> Unsecured Business Expansion Term Loans</li>
+          </ul>
+          <div class="product-footer">
+            <button class="btn-text-gold" onclick="selectLoanInModal('Business Loans')">
+              Structure Business Credit <i data-lucide="arrow-right" class="icon-xs"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- 5. Personal Loans -->
+        <article class="product-card reveal-up" data-category="retail" style="transition-delay: 60ms;">
+          <div class="product-card-top">
+            <div class="product-icon"><i data-lucide="user-check"></i></div>
+            <span class="product-badge">Unsecured Express</span>
+          </div>
+          <h3 class="product-title">Personal Loans</h3>
+          <p class="product-desc">
+            Rapid, unsecured funding for emergencies, debt consolidation, or immediate capital needs.
+          </p>
+          <ul class="product-features">
+            <li><i data-lucide="check" class="icon-xs"></i> Minimal Documentation &amp; Fast Disbursal</li>
+            <li><i data-lucide="check" class="icon-xs"></i> High-Cost Debt Consolidation Programs</li>
+            <li><i data-lucide="check" class="icon-xs"></i> Salaried &amp; Self-Employed Professional Plans</li>
+          </ul>
+          <div class="product-footer">
+            <button class="btn-text-gold" onclick="selectLoanInModal('Personal Loans')">
+              Check Express Eligibility <i data-lucide="arrow-right" class="icon-xs"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- 6. Education Loans -->
+        <article class="product-card reveal-up" data-category="retail" style="transition-delay: 120ms;">
+          <div class="product-card-top">
+            <div class="product-icon"><i data-lucide="graduation-cap"></i></div>
+            <span class="product-badge">Global &amp; Domestic</span>
+          </div>
+          <h3 class="product-title">Education Loans</h3>
+          <p class="product-desc">
+            Domestic and overseas study financing covering tuition, living expenses, and visa requirements.
+          </p>
+          <ul class="product-features">
+            <li><i data-lucide="check" class="icon-xs"></i> Pre-Visa Sanction Letters for Overseas Study</li>
+            <li><i data-lucide="check" class="icon-xs"></i> 100% Coverage: Tuition, Living &amp; Travel</li>
+            <li><i data-lucide="check" class="icon-xs"></i> Moratorium Period &amp; Tax Benefit (Sec 80E)</li>
+          </ul>
+          <div class="product-footer">
+            <button class="btn-text-gold" onclick="selectLoanInModal('Education Loans')">
+              Plan Study Finance <i data-lucide="arrow-right" class="icon-xs"></i>
+            </button>
+          </div>
+        </article>
+
+        <!-- 7. Car & Auto Loans -->
+        <article class="product-card reveal-up" data-category="retail">
+          <div class="product-card-top">
+            <div class="product-icon"><i data-lucide="car-front"></i></div>
+            <span class="product-badge">Fast-Track Processing</span>
+          </div>
+          <h3 class="product-title">Car &amp; Auto Loans</h3>
+          <p class="product-desc">
+            New and used auto loans with flexible EMIs and fast-track processing.
+          </p>
+          <ul class="product-features">
+            <li><i data-lucide="check" class="icon-xs"></i> Up to 100% On-Road Funding on New Cars</li>
+            <li><i data-lucide="check" class="icon-xs"></i> Certified Pre-Owned &amp; Used Car Refinance</li>
+            <li><i data-lucide="check" class="icon-xs"></i> Flexible Repayment Tenures &amp; Low Downpayment</li>
+          </ul>
+          <div class="product-footer">
+            <button class="btn-text-gold" onclick="selectLoanInModal('Car & Auto Loans')">
+              Get Auto Loan Quote <i data-lucide="arrow-right" class="icon-xs"></i>
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Executive Brochure Matrix Table (Collapsible / Clean View) -->
+      <div class="matrix-table-wrapper reveal-up">
+        <div class="matrix-header">
+          <div>
+            <h4>Executive Product Portfolio Matrix</h4>
+            <p>Quick-reference comparison across LendBridge Capital's 7 core lending mandates.</p>
+          </div>
+          <a href="#contact" class="btn btn-outline-navy btn-sm">Download / Request Full Deck</a>
+        </div>
+        <div class="table-responsive">
+          <table class="portfolio-table">
+            <thead>
+              <tr>
+                <th>Product Category</th>
+                <th>Focus &amp; Highlights</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Home Loans</strong></td>
+                <td>Purchase, construction, balance transfers, and specialized approvals for sub-optimal CIBIL profiles.</td>
+                <td><button class="table-action-btn" onclick="selectLoanInModal('Home Loans')">Enquire &rarr;</button></td>
+              </tr>
+              <tr>
+                <td><strong>Project &amp; Builder Finance</strong></td>
+                <td>End-to-end syndication, construction finance, and inventory funding for developers (50+ projects executed).</td>
+                <td><button class="table-action-btn" onclick="selectLoanInModal('Project & Builder Finance')">Enquire &rarr;</button></td>
+              </tr>
+              <tr>
+                <td><strong>Loan Against Property (LAP)</strong></td>
+                <td>Long-tenure, high-ticket liquidity against residential, commercial, or industrial real estate.</td>
+                <td><button class="table-action-btn" onclick="selectLoanInModal('Loan Against Property (LAP)')">Enquire &rarr;</button></td>
+              </tr>
+              <tr>
+                <td><strong>Business Loans</strong></td>
+                <td>Working capital, machinery finance, and term loans tailored for MSMEs and corporate growth.</td>
+                <td><button class="table-action-btn" onclick="selectLoanInModal('Business Loans')">Enquire &rarr;</button></td>
+              </tr>
+              <tr>
+                <td><strong>Personal Loans</strong></td>
+                <td>Rapid, unsecured funding for emergencies, debt consolidation, or immediate capital needs.</td>
+                <td><button class="table-action-btn" onclick="selectLoanInModal('Personal Loans')">Enquire &rarr;</button></td>
+              </tr>
+              <tr>
+                <td><strong>Education Loans</strong></td>
+                <td>Domestic and overseas study financing covering tuition, living expenses, and visa requirements.</td>
+                <td><button class="table-action-btn" onclick="selectLoanInModal('Education Loans')">Enquire &rarr;</button></td>
+              </tr>
+              <tr>
+                <td><strong>Car &amp; Auto Loans</strong></td>
+                <td>New and used auto loans with flexible EMIs and fast-track processing.</td>
+                <td><button class="table-action-btn" onclick="selectLoanInModal('Car & Auto Loans')">Enquire &rarr;</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. SPECIALIZED SERVICE HIGHLIGHT: CREDIT-CHALLENGED HOME LOANS -->
+  <section class="section cibil-section" id="cibil-specialist">
+    <div class="container">
+      <div class="cibil-showcase-box reveal-up">
+        <div class="cibil-grid">
+          <!-- Left: Narrative & Quote -->
+          <div class="cibil-left">
+            <div class="cibil-eyebrow">
+              <i data-lucide="sparkles" class="icon-xs"></i> SPECIALIZED SERVICE HIGHLIGHT: CREDIT-CHALLENGED HOME LOANS
+            </div>
+            <h2 class="cibil-headline">
+              Turn <span class="strike-rejected">“Application Rejected”</span> into <span class="text-gold-gradient">“Keys Handed Over.”</span>
+            </h2>
+            <p class="cibil-lead">
+              Traditional lenders often discard loan files due to CIBIL irregularities or lower credit scores. <strong>LendBridge Capital</strong> specializes in non-standard file underwriting:
+            </p>
+
+            <div class="cibil-pillars">
+              <div class="cibil-pillar-item">
+                <div class="cp-icon"><i data-lucide="microscope"></i></div>
+                <div class="cp-text">
+                  <h4>Credit Discrepancy Forensics</h4>
+                  <p>Deep dive into credit report discrepancies to identify root causes, historical settlement anomalies, or reporting errors.</p>
+                </div>
+              </div>
+
+              <div class="cibil-pillar-item">
+                <div class="cp-icon"><i data-lucide="route"></i></div>
+                <div class="cp-text">
+                  <h4>Strategic NBFC &amp; Cooperative Routing</h4>
+                  <p>Strategic routing to specialized NBFCs and cooperative credit lines with flexible eligibility criteria and human credit assessment.</p>
+                </div>
+              </div>
+
+              <div class="cibil-pillar-item">
+                <div class="cp-icon"><i data-lucide="layers"></i></div>
+                <div class="cp-text">
+                  <h4>Structured Co-Applicant &amp; Collateral Engineering</h4>
+                  <p>Structured co-applicant and collateral mechanisms to secure approvals even when conventional scores fall short.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cibil-cta-row">
+              <button class="btn btn-gold btn-lg" onclick="selectLoanInModal('Credit-Challenged Home Loan (CIBIL Advisory)')">
+                <span>Submit Your File for Specialized Review</span>
+                <i data-lucide="arrow-right" class="icon-md"></i>
+              </button>
+              <span class="confidential-note"><i data-lucide="lock" class="icon-xs"></i> 100% Confidential Credit Evaluation</span>
+            </div>
+          </div>
+
+          <!-- Right: Visual Transformation Card -->
+          <div class="cibil-right">
+            <div class="transformation-panel">
+              <div class="tp-card tp-before">
+                <div class="tp-status tp-status-red">
+                  <i data-lucide="x-circle" class="icon-sm"></i> CONVENTIONAL ALGORITHM OUTCOME
+                </div>
+                <h5>Automated Bank Filter</h5>
+                <ul class="tp-list">
+                  <li>Past EMI bounce or technical CIBIL dip (&lt; 680)</li>
+                  <li>Unexplained credit inquiry spikes or past settlement flag</li>
+                  <li>Cash-flow heavy business income not reflected in standard ITR</li>
+                </ul>
+                <div class="tp-stamp-rejected">STANDARD APPLICATION REJECTED</div>
+              </div>
+
+              <div class="tp-bridge-arrow">
+                <div class="tp-bridge-pill">
+                  <img src="./assets/logo-emblem.png" alt="" class="tp-mini-logo" />
+                  <span>LendBridge Non-Standard Underwriting</span>
+                  <i data-lucide="arrow-down" class="icon-xs"></i>
+                </div>
+              </div>
+
+              <div class="tp-card tp-after">
+                <div class="tp-status tp-status-green">
+                  <i data-lucide="check-circle-2" class="icon-sm"></i> LENDBRIDGE STRUCTURED OUTCOME
+                </div>
+                <h5>Engineered Credit File</h5>
+                <ul class="tp-list">
+                  <li>Root-cause credit explanation dossier &amp; banking cash-flow validation</li>
+                  <li>Matched with specialized NBFC / Cooperative credit committee</li>
+                  <li>Co-borrower income pooling &amp; strong asset coverage structuring</li>
+                </ul>
+                <div class="tp-stamp-approved">
+                  <i data-lucide="key" class="icon-sm"></i> SANCTIONED &bull; KEYS HANDED OVER
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. ABOUT US PAGE SECTION -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header text-center reveal-up">
+        <div class="section-tag">ABOUT US</div>
+        <h2 class="section-title">Client-First Financial Distribution &amp; Engineering</h2>
+        <p class="section-subtitle">
+          We believe credit approval should be determined by true capacity and future potential, not just automated credit algorithms.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <!-- Who We Are Card -->
+        <div class="about-card reveal-up">
+          <div class="about-card-badge">01 / IDENTITY &amp; LINEAGE</div>
+          <h3>Who We Are</h3>
+          <p>
+            Founded as the strategic expansion arm of <strong>Money Shelter Pvt. Ltd. (operating since 2014)</strong>, LendBridge Capital is a client-first financial distribution platform.
+          </p>
+          <p>
+            We believe credit approval should be determined by true capacity and future potential, not just automated credit algorithms. Over the past decade, our group has built enduring trust with borrowers, real estate developers, and senior credit decision-makers across India's banking ecosystem.
+          </p>
+          <div class="about-lineage-box">
+            <div class="lineage-year">2014</div>
+            <div class="lineage-text">
+              <strong>Money Shelter Pvt. Ltd. Foundation</strong>
+              <span>A decade of proven ethical advisory and credit syndication excellence.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- What Sets Us Apart Card -->
+        <div class="about-card about-card-dark reveal-up" style="transition-delay: 100ms;">
+          <div class="about-card-badge badge-gold-outline">02 / THE LENDBRIDGE DIFFERENCE</div>
+          <h3>What Sets Us Apart</h3>
+          <p>
+            <strong>We do not operate as simple application forwarders.</strong> Our seasoned financial consultants review balance sheets, income streams, and credit histories to design <em>bulletproof loan files</em> before submitting them to our partner banks.
+          </p>
+          <p>
+            Whether you are an individual buying your first home or a developer breaking ground on a residential township, we engineer the optimal financial structure.
+          </p>
+
+          <div class="comparison-mini">
+            <div class="comp-col comp-typical">
+              <span class="comp-title">Typical Loan Agents</span>
+              <ul>
+                <li><i data-lucide="minus" class="icon-xs"></i> Blindly forward files to multiple banks</li>
+                <li><i data-lucide="minus" class="icon-xs"></i> Trigger multiple CIBIL inquiries</li>
+                <li><i data-lucide="minus" class="icon-xs"></i> Give up when standard algorithms reject</li>
+              </ul>
+            </div>
+            <div class="comp-col comp-lendbridge">
+              <span class="comp-title">LendBridge Consultants</span>
+              <ul>
+                <li><i data-lucide="check" class="icon-xs"></i> Pre-underwrite balance sheets &amp; cash flows</li>
+                <li><i data-lucide="check" class="icon-xs"></i> Design bulletproof dossiers before submission</li>
+                <li><i data-lucide="check" class="icon-xs"></i> Custom-engineer retail &amp; township finance</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. PRESENCE & CONTACT PAGE SECTION -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header text-center reveal-up">
+        <div class="section-tag">PRESENCE &amp; CONTACT</div>
+        <h2 class="section-title">Connect With Our Regional Credit Hubs</h2>
+        <p class="section-subtitle">
+          Headquartered in Pune with active regional branches across Maharashtra and upcoming hubs in Mumbai &amp; Kolhapur.
+        </p>
+      </div>
+
+      <!-- Regional Footprint Cards -->
+      <div class="presence-grid reveal-up">
+        <!-- Corporate Office: Pune -->
+        <div class="office-card office-hq">
+          <div class="office-status-row">
+            <span class="office-badge hq-badge"><i data-lucide="building-2" class="icon-xs"></i> CORPORATE HEADQUARTERS</span>
+            <span class="operational-dot">Operational</span>
+          </div>
+          <h3>Pune Corporate Office</h3>
+          <p class="office-role">Central Syndication Desk, Builder Project Finance &amp; Retail Underwriting Hub</p>
+          <div class="office-detail-list">
+            <div class="office-detail">
+              <i data-lucide="map-pin" class="icon-sm text-gold"></i>
+              <span>Pune, Maharashtra <em>(Corporate Headquarter Desk)</em></span>
+            </div>
+            <div class="office-detail">
+              <i data-lucide="clock" class="icon-sm text-gold"></i>
+              <span>Mon – Sat: 9:30 AM – 7:00 PM</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Regional Branch: Nashik -->
+        <div class="office-card">
+          <div class="office-status-row">
+            <span class="office-badge"><i data-lucide="map-pin" class="icon-xs"></i> REGIONAL BRANCH</span>
+            <span class="operational-dot">Operational</span>
+          </div>
+          <h3>Nashik Office</h3>
+          <p class="office-role">North Maharashtra Retail, LAP, MSME &amp; Real Estate Advisory</p>
+          <div class="office-detail-list">
+            <div class="office-detail">
+              <i data-lucide="map-pin" class="icon-sm text-gold"></i>
+              <span>Nashik Regional Hub, Maharashtra</span>
+            </div>
+            <div class="office-detail">
+              <i data-lucide="check-circle" class="icon-sm text-gold"></i>
+              <span>Full-Service Credit Structuring Desk</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Regional Branch: Satara -->
+        <div class="office-card">
+          <div class="office-status-row">
+            <span class="office-badge"><i data-lucide="map-pin" class="icon-xs"></i> REGIONAL BRANCH</span>
+            <span class="operational-dot">Operational</span>
+          </div>
+          <h3>Satara Office</h3>
+          <p class="office-role">Western Maharashtra Home Loans, LAP, Auto &amp; Business Finance</p>
+          <div class="office-detail-list">
+            <div class="office-detail">
+              <i data-lucide="map-pin" class="icon-sm text-gold"></i>
+              <span>Satara Regional Hub, Maharashtra</span>
+            </div>
+            <div class="office-detail">
+              <i data-lucide="check-circle" class="icon-sm text-gold"></i>
+              <span>Full-Service Credit Structuring Desk</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Upcoming Hubs: Mumbai & Kolhapur -->
+        <div class="office-card office-upcoming">
+          <div class="office-status-row">
+            <span class="office-badge upcoming-badge"><i data-lucide="trending-up" class="icon-xs"></i> EXPANSION UNDERWAY</span>
+          </div>
+          <h3>Mumbai &amp; Kolhapur</h3>
+          <p class="office-role">Upcoming Regional Syndication &amp; Project Finance Hubs</p>
+          <div class="upcoming-cities-chips">
+            <div class="city-chip">
+              <span class="city-dot"></span>
+              <div>
+                <strong>Mumbai Hub</strong>
+                <span>Corporate &amp; High-Ticket Syndication</span>
+              </div>
+            </div>
+            <div class="city-chip">
+              <span class="city-dot"></span>
+              <div>
+                <strong>Kolhapur Hub</strong>
+                <span>South-West Maharashtra Advisory</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Direct Inquiry & Consultation Form Box -->
+      <div class="contact-main-box reveal-up">
+        <div class="contact-info-panel">
+          <div>
+            <span class="contact-panel-tag">DIRECT INQUIRIES</span>
+            <h3>Speak With a Senior Credit Consultant</h3>
+            <p>
+              Whether you need a home loan with a complex CIBIL history, working capital for your MSME, or multi-crore project syndication for an upcoming real estate development, our specialists are ready to structure your file.
+            </p>
+          </div>
+
+          <div class="direct-contact-items">
+            <div class="dc-item">
+              <div class="dc-icon"><i data-lucide="globe"></i></div>
+              <div>
+                <span class="dc-label">Official Portal</span>
+                <a href="https://www.lendbridgecapital.in" class="dc-value">www.lendbridgecapital.in</a>
+              </div>
+            </div>
+
+            <div class="dc-item">
+              <div class="dc-icon"><i data-lucide="mail"></i></div>
+              <div>
+                <span class="dc-label">Official Email Desk</span>
+                <a href="mailto:advisory@lendbridgecapital.in" class="dc-value" id="officialEmailLink">advisory@lendbridgecapital.in</a>
+              </div>
+            </div>
+
+            <div class="dc-item">
+              <div class="dc-icon"><i data-lucide="phone-call"></i></div>
+              <div>
+                <span class="dc-label">Direct Advisory Helpline</span>
+                <a href="tel:+912025500000" class="dc-value" id="officialPhoneLink">Satara Regional Hub Desk (br_satara_01)</a>
+              </div>
+            </div>
+
+            <div class="dc-item">
+              <div class="dc-icon"><i data-lucide="building"></i></div>
+              <div>
+                <span class="dc-label">Parent Group Lineage</span>
+                <span class="dc-value">Sister Concern of Money Shelter Pvt. Ltd. (Est. 2014)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-brand-seal">
+            <img src="./assets/logo-emblem.png" alt="LendBridge Emblem" />
+            <div>
+              <strong>LendBridge Capital</strong>
+              <span>Bridging Dreams &amp; Finance</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Consultation / Eligibility Form -->
+        <div class="contact-form-panel">
+          <div class="form-header">
+            <h4>Request a Confidential Credit Consultation</h4>
+            <p>Our underwriting desk responds within 4 business hours.</p>
+          </div>
+
+          <form id="consultationForm" class="credit-form" onsubmit="handleConsultationSubmit(event)">
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="clientName">Full Name / Developer Name *</label>
+                <input type="text" id="clientName" name="clientName" required placeholder="e.g., Rajesh Kulkarni" />
+              </div>
+              <div class="form-group">
+                <label for="clientPhone">Mobile Number *</label>
+                <input type="tel" id="clientPhone" name="clientPhone" required placeholder="+91 98XXX XXXXX" />
+              </div>
+            </div>
+
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="clientCity">Assigned Processing Branch *</label>
+                <select id="clientCity" name="clientCity" required>
+                  <option value="Satara Branch (br_satara_01)" selected>Satara Branch (br_satara_01) — Underwriting Hub</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="loanCategory">Product Category *</label>
+                <select id="loanCategory" name="loanCategory" required>
+                  <option value="Home Loans">Home Loans (Purchase / Construction / BT)</option>
+                  <option value="Credit-Challenged Home Loan (CIBIL Advisory)">Credit-Challenged Home Loan (Low CIBIL Specialist)</option>
+                  <option value="Project & Builder Finance">Project &amp; Builder Finance (Developer Syndication)</option>
+                  <option value="Loan Against Property (LAP)">Loan Against Property (LAP)</option>
+                  <option value="Business Loans">Business Loans (MSME / Working Capital / Machinery)</option>
+                  <option value="Personal Loans">Personal Loans</option>
+                  <option value="Education Loans">Education Loans (Domestic / Overseas)</option>
+                  <option value="Car & Auto Loans">Car &amp; Auto Loans</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="loanTicket">Estimated Loan Amount *</label>
+                <select id="loanTicket" name="loanTicket" required>
+                  <option value="₹10 Lakh – ₹50 Lakh">₹10 Lakh – ₹50 Lakh</option>
+                  <option value="₹50 Lakh – ₹2 Crore" selected>₹50 Lakh – ₹2 Crore</option>
+                  <option value="₹2 Crore – ₹10 Crore">₹2 Crore – ₹10 Crore</option>
+                  <option value="₹10 Crore – ₹50 Crore+ (Project Finance)">₹10 Crore – ₹50 Crore+ (Builder / Project Finance)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="cibilProfile">Approximate CIBIL / Credit Profile</label>
+                <select id="cibilProfile" name="cibilProfile">
+                  <option value="750+ (Prime Profile)">750+ (Prime Profile - Best Rate Mandate)</option>
+                  <option value="680 – 749 (Standard)">680 – 749 (Standard Profile)</option>
+                  <option value="Below 680 / CIBIL Irregularities">Below 680 / Past CIBIL Irregularities (Need Specialist Underwriting)</option>
+                  <option value="Corporate / Builder Entity">Corporate / Builder Entity (CMR Assessment)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="clientNotes">Brief Requirement &amp; Location / File Context (Optional)</label>
+              <textarea id="clientNotes" name="clientNotes" rows="3" placeholder="Tell us about your city/location, property details, business requirement, or credit profile..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-gold btn-block btn-lg">
+              <span>Submit Mandate to Satara Branch Credit Specialist</span>
+              <i data-lucide="send" class="icon-sm"></i>
+            </button>
+
+            <div id="formSuccessBanner" class="form-success-banner" hidden>
+              <i data-lucide="check-circle-2" class="icon-md"></i>
+              <div>
+                <strong>Mandate Received Successfully!</strong>
+                <p id="formSuccessText">A LendBridge Capital Senior Credit Consultant from our Satara branch desk (br_satara_01) will contact you shortly.</p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <div class="footer-logo-box">
+            <img src="./assets/logo-clean.png" alt="LendBridge Capital Logo" class="footer-logo-img" />
+          </div>
+          <p class="footer-about-text">
+            <strong>LendBridge Capital</strong> is a premier Pune-headquartered Direct Selling Agent (DSA) and credit advisory firm, operating as a sister concern of <strong>Money Shelter Pvt. Ltd.</strong> (established in 2014).
+          </p>
+          <div class="footer-domain-badge">
+            <i data-lucide="globe" class="icon-xs"></i>
+            <span>www.lendbridgecapital.in</span>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Product Portfolio</h4>
+          <ul>
+            <li><a href="#portfolio" onclick="selectLoanInModal('Home Loans')">Home Loans</a></li>
+            <li><a href="#portfolio" onclick="selectLoanInModal('Project & Builder Finance')">Project &amp; Builder Finance</a></li>
+            <li><a href="#portfolio" onclick="selectLoanInModal('Loan Against Property (LAP)')">Loan Against Property (LAP)</a></li>
+            <li><a href="#portfolio" onclick="selectLoanInModal('Business Loans')">Business Loans</a></li>
+            <li><a href="#portfolio" onclick="selectLoanInModal('Personal Loans')">Personal Loans</a></li>
+            <li><a href="#portfolio" onclick="selectLoanInModal('Education Loans')">Education Loans</a></li>
+            <li><a href="#portfolio" onclick="selectLoanInModal('Car & Auto Loans')">Car &amp; Auto Loans</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Advisory Navigation</h4>
+          <ul>
+            <li><a href="#overview">Executive Overview</a></li>
+            <li><a href="#strengths">Core Strengths &amp; Track Record</a></li>
+            <li><a href="#cibil-specialist">Credit-Challenged Home Loans</a></li>
+            <li><a href="#about">Who We Are &amp; What Sets Us Apart</a></li>
+            <li><a href="#contact">Regional Presence &amp; Contact</a></li>
+            <li><a href="javascript:void(0)" onclick="openEligibilityModal()">Check Loan Eligibility</a></li>
+            <li><a href="https://money-shelter.onrender.com/partner/onboard?branchId=br_satara_01" target="_blank" rel="noopener noreferrer">Become a Partner (Satara Desk)</a></li>
+            <li><a href="https://money-shelter.onrender.com/lendbridge/login?branchId=br_satara_01" target="_blank" rel="noopener noreferrer">Partner Portal Login</a></li>
+            <li><a href="https://money-shelter.onrender.com/login/br_satara_01" target="_blank" rel="noopener noreferrer">Satara Branch Employee Desk</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Regional Footprint</h4>
+          <ul class="footer-locations">
+            <li>
+              <i data-lucide="map-pin" class="icon-xs text-gold"></i>
+              <div><strong>Corporate Office:</strong> Pune, Maharashtra</div>
+            </li>
+            <li>
+              <i data-lucide="map-pin" class="icon-xs text-gold"></i>
+              <div><strong>Operational Hubs:</strong> Pune | Nashik | Satara</div>
+            </li>
+            <li>
+              <i data-lucide="compass" class="icon-xs text-gold"></i>
+              <div><strong>Upcoming Hubs:</strong> Mumbai | Kolhapur</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> <strong>LendBridge Capital</strong> (A Sister Concern of Money Shelter Pvt. Ltd., Est. 2014). All Rights Reserved.</p>
+        <p class="footer-disclaimer">Direct Selling Agent (DSA) &amp; Credit Structuring Advisory | Impaneled with Leading National Banks &amp; NBFCs.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- INTERACTIVE LOAN ELIGIBILITY & CIBIL ASSESSMENT MODAL -->
+  <div class="modal-backdrop" id="eligibilityModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-container">
+      <button class="modal-close-btn" onclick="closeEligibilityModal()" aria-label="Close Modal">
+        <i data-lucide="x"></i>
+      </button>
+
+      <div class="modal-header">
+        <span class="modal-tag">INSTANT CREDIT ELIGIBILITY &amp; SYNDICATION ENGINE</span>
+        <h3 id="modalTitle">Check Your Loan Eligibility</h3>
+        <p>Evaluate your borrowing capacity across our impaneled PSU Banks, Private Banks, and specialized NBFCs.</p>
+      </div>
+
+      <div class="modal-body">
+        <div class="elig-grid">
+          <div class="elig-inputs">
+            <div class="form-group">
+              <label for="eligProduct">Select Financing Category</label>
+              <select id="eligProduct" onchange="calculateEligibility()">
+                <option value="home">Home Loan (Purchase / Construction / Balance Transfer)</option>
+                <option value="cibil">Credit-Challenged Home Loan (Low CIBIL / Non-Standard)</option>
+                <option value="lap">Loan Against Property (LAP)</option>
+                <option value="builder">Project &amp; Builder Finance (Developer Syndication)</option>
+                <option value="business">Business Loan (MSME / Working Capital)</option>
+                <option value="personal">Personal / Education / Auto Loan</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="eligIncome">Net Monthly Income / Business Cash Flow (₹)</label>
+              <input type="number" id="eligIncome" value="150000" min="25000" step="10000" oninput="calculateEligibility()" />
+            </div>
+
+            <div class="form-group">
+              <label for="eligObligations">Existing Monthly EMIs (₹)</label>
+              <input type="number" id="eligObligations" value="20000" min="0" step="5000" oninput="calculateEligibility()" />
+            </div>
+
+            <div class="form-group">
+              <label for="eligCibil">Current CIBIL / Credit Score Band</label>
+              <select id="eligCibil" onchange="calculateEligibility()">
+                <option value="prime">750+ (Prime PSU &amp; Private Bank Tier)</option>
+                <option value="standard">680 – 749 (Standard Banking Tier)</option>
+                <option value="challenged">Below 680 / Past Settlement / Irregularities (LendBridge Specialized Underwriting)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="elig-output-card">
+            <div class="elig-out-top">
+              <span class="elig-out-label">ESTIMATED SANCTION ELIGIBILITY</span>
+              <div class="elig-out-amount" id="eligMaxLoan">₹ 88,50,000</div>
+              <span class="elig-out-sub" id="eligChannelBadge">Recommended Channel: Tier-1 PSU &amp; Private Banks</span>
+            </div>
+
+            <div class="elig-metrics">
+              <div class="elig-metric-row">
+                <span>Max Permissible Monthly EMI (FOIR):</span>
+                <strong id="eligMaxEmi">₹ 77,500 / mo</strong>
+              </div>
+              <div class="elig-metric-row">
+                <span>Indicative Interest Band:</span>
+                <strong id="eligRateBand">8.40% – 8.85% p.a.</strong>
+              </div>
+              <div class="elig-metric-row">
+                <span>Underwriting Route:</span>
+                <strong id="eligRouteText">Direct Bank Impanelment Fast-Track</strong>
+              </div>
+            </div>
+
+            <div class="elig-advisory-note" id="eligAdvisoryNote">
+              Our consultants can further enhance your sanction limit by pooling co-applicant income or structuring existing obligations.
+            </div>
+
+            <button class="btn btn-gold btn-block" onclick="proceedFromModalToForm()">
+              <span>Lock This Structure With a Specialist</span>
+              <i data-lucide="arrow-right" class="icon-sm"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="./script.js"></script>
+</body>
+</html>
